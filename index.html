@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="audioStart" src="./audio/audio.mp3"></audio>
+    <audio id="audioOver" src="./audio/audioGameover.mp3"></audio>
+    <audio id="audioEat" src="./audio/eat.mp3"></audio>
+    <p id="score">0</p>
+
+    
+    <canvas id="game-board" width="400" height="400"> </canvas>
+
+
+  
+
+    <div id="myModal2" class="modal2">
+        <div class="modal-content">
+              <img src="./img/georgina-linuesa-gomez-snake-attack.gif" alt="">
+              <p>Snake</p>
+          <button id="btnStart">Start</button>
+        </div>
+      </div>
+
+
+
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+        <img src="./img/georgina-linuesa-gomez-snake-death.gif" alt="">
+        <p>GAME OVER</p>
+    <button id="btn">Home</button>
+  </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
